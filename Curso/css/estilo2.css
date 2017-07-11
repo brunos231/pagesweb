@@ -1,0 +1,13 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+}
+
+div.principal{ /*Refencia a div dentro da classe*/
+  background-color: #ccc;
+  width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}

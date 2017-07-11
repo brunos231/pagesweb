@@ -1,0 +1,21 @@
+/*Criando a minha própria familia de fontes*/
+@font-face{
+	font-family: Bruno; /*Nome personalizavel*/
+	src:url(../fontes/1900805.ttf); /*Caminho da fonte*/
+}
+
+h1{
+	font-family: Bruno;
+	font-size: 20px;
+	text-shadow: 0px 0px 20px brown;
+}
+
+p{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+}
+
+h2{
+	font-family: Arial;
+	font-size: 20px;
+}

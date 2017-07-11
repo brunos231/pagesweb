@@ -1,0 +1,53 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+}
+
+div.principal{ /*Refencia a div dentro da classe*/
+  background-color: #ccc;
+  width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+header{
+  background-color: #fff;
+  width: 1200px;
+  height: 200px;
+}
+
+nav{
+  background-color: white;
+  margin-top: 10px;
+  width: 1200px;
+  height: 50px;
+}
+
+section{
+  background-color: #fff;
+  margin-top: 10px;
+  width: 900px;
+  height: 500px;
+  float: left; /*Faz a dic flutuar*/
+}
+
+aside{
+  background-color: #fff;
+  margin-top: 10px;
+  width: 290px;
+  height: 500px;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+footer{
+  background-color: #fff;
+  width: 1200px;
+  height: 60px;
+  /*Depois dos elementos flutuantes*/
+  clear: both; /*Elimina a flutuação*/
+  /*Devido ao clear, não é possivel distanciar dos demais a cima*/
+}

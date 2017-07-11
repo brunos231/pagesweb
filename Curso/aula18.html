@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Aula 18 - Formulários PT1</title>
+	<meta name="author" content="Bruno Silva">
+	<meta name="description" content="Aprendendo HTML 5 e CSS 3">
+	<link rel="stylesheet" type="text/css" href="css/estilo16.css">
+</head>
+
+<body>
+	<section>
+		<form method="post" action="">
+		<fieldset>
+				<legend>Preencha os campos!</legend>
+
+				<label for="nome">Nome:</label><br>
+				<input class="campos" type="text" maxlength="20" id="nome" name="nome" required autofocus><br><br>
+
+				<label for="idade">Idade:</label><br>
+				<input class="campos" type="text" id="idade" maxlength="2" name="idade" required><br><br>
+
+				<label for="email">E-mail:</label><br>
+				<input class="campos" type="email" maxlength="50" id="email" name="email" required><br><br>
+
+				<label for="msg">Deixe sua mensagem:</label><br>
+				<textarea id="msg"></textarea>
+				
+				<br>
+				<input type="submit" value="Enviar">
+				<input type="reset" value="Limpar Campos">
+		</fieldset>
+		</form>
+	</section>
+</body>
+</html>

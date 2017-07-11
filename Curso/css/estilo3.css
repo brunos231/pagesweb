@@ -1,0 +1,19 @@
+.principal{
+	background-color: #ddd;
+	width: 1200px;
+	margin: auto; /*Centraliza automaticamente a pagina*/
+	padding: 30px; /*Observar que a div cresce*/
+}
+
+/*
+Margin - Distância da parte externa dos objetos
+Padding - Distância da parte interna dos elementos
+*/
+
+section{
+	background-color: white;
+	width: 1000px; /*Refere-se a largura do box ou elemento*/
+	margin: auto;
+	padding: 20px;
+	box-sizing: border-box; /*Não extrapola o tamanho da tela do usuario*/
+}

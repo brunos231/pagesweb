@@ -1,0 +1,21 @@
+.principal{
+	background-color: #fff;
+	width: 300px; /*Largura*/
+	height: 300px; /*Altura*/
+	margin: auto;
+  
+	/*Borda da div*/
+	border: 20px solid #333; /*Espessura, tipo, cor*/
+	
+	/*Para selecionar os lados a serem arredondados*/
+	border-radius: 10px 10px 10px 10px;
+	/*Superior Esquerdo - Sup Dir - Inferior Dir - Inf Esq*/
+	
+	box-shadow: 10px 10px 30px red; /*Sombreamento da box*/
+	/*Distanciamento D - Dist. Baixo - Espalhamento - Cor*/
+
+  	text-shadow: 0px 0px 10px red; /*Sombreamento de texto*/
+	/*Mesmo contexto da box-shadow*/
+	
+	font-size: 40px; /*Tamanho da fonte*/
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Aula 19 - Formulários PT3</title>
+	<meta name="author" content="Bruno Silva">
+	<meta name="description" content="Aprendendo HTML 5 e CSS 3">
+	<link rel="stylesheet" type="text/css" href="css/cadastro.css">
+</head>
+
+<body>
+	<div class="content">
+		<nav>
+			<ul>
+				<a href="usuario.html"><li>Usuario</li></a>
+				<li>Fornecedores</li>
+				<li>Clientes</li>
+				<li>Serviços</li>
+				<li>Consultas</li>
+				<li>Sair</li>
+			</ul>
+		</nav>
+
+		<section>
+			<form method="post" action="">
+				<fieldset>
+					<legend>Usuario</a></legend>
+
+					<input class="campos" type="text" name="nome" placeholder="Seu nome cara" maxlength="20" required autofocus><br>
+
+					<input type="email" name="email" class="campos" placeholder="Seu e-mail" maxlength="50" required><br>
+
+					<input type="text" name="idade" class="campos" placeholder="Sua idade" maxlength="2" required><br>
+					<hr>
+					<input type="submit" name="salvar" class="btn" value="Salvar">
+					<input type="reset" name="limpar" class="btn" value="limpar">
+				</fieldset>
+			</form>
+		</section>
+	</div>
+</body>
+</html>

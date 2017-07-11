@@ -1,0 +1,71 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.content{
+  background-color: #ddd;
+  width: 1200px;
+  margin: auto;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+header{
+  background-color: #fff;
+  width: 1200px;
+  height: 250px;
+}
+
+nav{
+  background-color: #fff;
+  width: 1200px;
+  height: 50px;
+  margin-top: 5px;
+}
+
+section{
+  background-color: #fff;
+  width: 900px;
+  height: 500px;
+  margin-top: 5px;
+  box-sizing: border-box; /*Adequa o conteudo a página*/
+  padding: 10px;
+  float: left; /*Faz o box flutuar*/
+}
+
+article{
+  background-image: url(../imagens/fotografo.jpg); /*Faz a linkagem da foto já no CSS*/
+  background-position: 0% 0%; /*Posicionamento inicial da imagem*/
+  width: 600px;
+  height: 400px;
+  transition: 1s; /*Efeito de transição da imagem*/
+}
+
+article:hover{ /*Efeito quando passamos o mouse pela imagem*/
+  background-position: 50% 0%; /*Configura o posicionamento da imagem por %*/
+  transition: 1s;
+}
+
+figcaption{ /*Configuração da legenda da imagem*/
+  padding: 10px;
+  text-align: justify; /*Alinhamento do texto - Justificado*/
+}
+
+aside{
+  background-color: #fff;
+  width: 295px;
+  height: 500px;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: left;
+  margin-bottom: 5px;
+}
+
+footer{
+  background-color: #fff;
+  width: 1200px;
+  height: 60px;
+  clear: both; /*Cancela o efeito de flutuação*/
+}
+

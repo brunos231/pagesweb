@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+	font: Arial;
+}
+
+body{
+	background-color: #ccc;
+}
+
+section{
+	background-color: white;
+	width: 500px;
+	height: auto;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.campos{
+	width: 450px;
+	height: 30px;
+	margin: 5px;
+}
+
+.btn{
+	width: 470px;
+	margin: 5px;
+}

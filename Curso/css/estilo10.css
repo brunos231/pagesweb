@@ -1,0 +1,30 @@
+/*A intenção é aplicar atributos em diversas sessões ao mesmo tempo*/
+
+header, nav, section, footer{
+  background-color: whitesmoke;
+  max-width: 800px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+header, footer{
+  height: 70px;
+}
+
+section{
+  height: 300px;
+}
+
+nav{
+  background-color: lightblue;
+}
+
+@media screen and (max-width: 400px){
+  header, footer{
+   height: 70px;
+   background-color: lightgreen;
+  }
+}

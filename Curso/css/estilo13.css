@@ -1,0 +1,22 @@
+div.banner{
+  width: 960px;
+  height: 350px;
+  margin: 0 auto;
+  animation: slide 10s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slide {
+  0%, 30%{
+    background-image: url(../imagens/pc1.jpg);
+  }
+  
+  35%, 65%{
+    background-image: url(../imagens/pc2.jpg);
+  } 
+  
+  70%, 100%{
+    background-image: url(../imagens/pc3.jpg);
+  }
+  
+}
